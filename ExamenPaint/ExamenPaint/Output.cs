@@ -4,16 +4,24 @@ using System.Text;
 
 namespace ExamenPaint
 {
+    /// <summary>
+    /// Representación de la sálida.
+    /// </summary>
     public class Output : IOutput
     {
-        public void Read()
+        public String Read()
         {
-            throw new NotImplementedException();
+            return Console.ReadLine(); 
         }
 
-        public void Write()
+        public void Write(String cadena)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(cadena);
         }
+
+        public void ReadKey() {
+            Console.ReadKey();
+        }
+
     }
 }

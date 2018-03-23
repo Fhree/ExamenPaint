@@ -6,14 +6,11 @@ using System.Text;
 namespace ExamenPaint
 {
     /// <summary>
-    /// Controlador
+    /// Controlador del sistema. Solo es posible una instancia de esta clase (Singleton Pattern)
     /// </summary>
     public class Lienzo : ILienzo
     {
-        /* TODO 
-         * subscribirse evento del TOOLBAR 
-        */
-
+      
         private static Lienzo instance;
         public IList<IFigura> FigurasDibujadas { get; set; }
         public IOutput Output { get; set; }

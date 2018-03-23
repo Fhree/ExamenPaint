@@ -5,6 +5,9 @@ using System.Text;
 
 namespace ExamenPaint
 {
+    /// <summary>
+    /// Interface representante de una figura.
+    /// </summary>
     public interface IFigura
     {        
         Color BackgroundColor { get; set; }

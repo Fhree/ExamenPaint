@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ExamenPaint
 {
+    /// <summary>
+    /// Representación de la figura Corazon, heredero de Figura.
+    /// </summary>
     public class Corazon : Figura
     {
         public Corazon(Color back, Color border ): base(back, border)

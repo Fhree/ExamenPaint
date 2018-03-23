@@ -51,9 +51,11 @@
     <Compile Include="IFigura.cs" />
     <Compile Include="FiguraFactory.cs" />
     <Compile Include="ILienzo.cs" />
+    <Compile Include="IMenu.cs" />
     <Compile Include="IOutput.cs" />
     <Compile Include="IToolbar.cs" />
     <Compile Include="Lienzo.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Output.cs" />
     <Compile Include="MainProgram.cs" />
     <Compile Include="Paint.cs" />

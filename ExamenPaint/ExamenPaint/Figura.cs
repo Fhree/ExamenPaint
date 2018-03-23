@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ExamenPaint
 {
+    /// <summary>
+    /// Representación de la figura.
+    /// </summary>
     public class Figura : IFigura
     {
         public Color BackgroundColor { get ; set ; }

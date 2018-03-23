@@ -6,9 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ExamenPaint
-{/// <summary>
-/// TODO DEFINICION DE EVENTOS
-/// </summary>
+{
+    /// <summary>
+    /// Interfaz representante de la barra de herramientas.
+    /// </summary>
     public interface IToolbar
     {
         IList<Type> CatalogoFiguras { get; set; }

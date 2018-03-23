@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 using System.Drawing;
 
 namespace ExamenPaint
-{
+{   
+    /// <summary>
+    /// Interfaz representante de Lienzo.
+    /// </summary>
     public interface ILienzo
     {
         IList<IFigura> FigurasDibujadas { get; set; }

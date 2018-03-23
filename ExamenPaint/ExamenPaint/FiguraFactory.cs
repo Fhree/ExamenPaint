@@ -5,6 +5,9 @@ using System.Text;
 
 namespace ExamenPaint
 {
+    /// <summary>
+    /// Factoria de construcción de los herederos de la clase figura.
+    /// </summary>
     public class FiguraFactory
     {
         public static Circulo createCirculo(Color backgroundColor, Color borderColor)

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ExamenPaint
 {
+    /// <summary>
+    /// Representación de la figura Rayo, heredero de Figura.
+    /// </summary>
     public class Rayo : Figura
     {
         public Rayo(Color back, Color border) : base(back, border)
